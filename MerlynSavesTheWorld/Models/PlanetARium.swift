@@ -254,6 +254,7 @@ struct PlanetARium {
         }
         
         sun.addParticles(scenefileName: "SunParticles")
+        sun.addRings(imageFileName: "saturn_rings2", innerRadius: 3, outerRadius: 4)
         
         
         addPlanetHelper(name: "Mercury",
